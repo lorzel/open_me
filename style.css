@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* cursor: none; */
+}
+
+#circle {
+    /* background-color: red; */
+    /* background: url(lock.png) center no-repeat; */
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+#circle .helper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.helper {
+    transform: translateX(0%) rotate(calc(0 * 1deg));
+}
+
+#circle img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.outer {
+    width: 20%;
+}
+
+#picklock {
+    background-color: black;
+    width: 5px;
+    height: 20%;
+    left: 50%;
+    position: absolute;
+    transform-origin: bottom;
+    transform: translateX(-50%) rotate(calc(0 * 1deg));
+    z-index: 10;
+}

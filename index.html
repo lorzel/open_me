@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick'a'Lock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container" onmousemove="coordinatesFunc(event)" onkeydown="pressA(event)">
+
+            <div class="outer"></div>
+            <div id="circle">
+                <div id="picklock"></div>
+                <span class="helper"><img src="lock.png" alt=""></span>
+            </div>
+            <div class="outer"></div>
+
+        </div>
+
+        <div class="coordinates">
+            <p>Mouse X: <span id="x-pos"></span></p>
+            <p>Mouse Y: <span id="y-pos"></span></p>
+            <p>Window X: <span id="window-x-pos"></span></p>
+            <p>X from center: <span id="window-y-pos"></span></p>
+        </div>
+
+    </div>
+
+
+
+    <!-- <div>
+        <p>X: <span id="x-pos"></span></p>
+        <p>Y: <span id="y-pos"></span></p>
+    </div> -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
