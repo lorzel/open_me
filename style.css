@@ -9,8 +9,6 @@ body {
 }
 
 #circle {
-    /* background-color: red; */
-    /* background: url(lock.png) center no-repeat; */
     border-radius: 50%;
     height: 400px;
     width: 400px;
